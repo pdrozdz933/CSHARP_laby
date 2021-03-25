@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laby3", "laby3\laby3.csproj", "{18DA1513-7079-4E05-B4BC-AA97680914BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18DA1513-7079-4E05-B4BC-AA97680914BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DA1513-7079-4E05-B4BC-AA97680914BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DA1513-7079-4E05-B4BC-AA97680914BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DA1513-7079-4E05-B4BC-AA97680914BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1485BD1E-B074-4228-BC2C-D0C433F1FB2A}
+	EndGlobalSection
+EndGlobal

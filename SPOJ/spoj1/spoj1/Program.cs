@@ -20,6 +20,7 @@ namespace spoj1
                 }
 
                 Console.WriteLine(suma);
+                gf
 
             }
         }
