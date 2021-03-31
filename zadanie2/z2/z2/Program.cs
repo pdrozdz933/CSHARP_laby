@@ -12,25 +12,47 @@ namespace z2
             short a = valuesArray[0];
             short b = valuesArray[1];
 
-            if(a==b)
+            if(a-b>10)
+            {
+                Console.Write($"{b + 1}, {b + 2}, {b + 3}, ..., {a - 2}, {a - 1}");
+                while (b == a - 2) ;
+                return;
+            }
+            else if(b-a>10)
+            {
+                Console.Write($"{a + 1}, {a + 2}, {a + 3}, ..., {b - 2}, {b - 1}");
+                while (a == b - 2) ;
+                return;
+            }
+            else if(a<b)
+            {
+                for(int i =a+1; i+1<=b; i++)
+                {
+                    if (i + 1 == b)
+                    {
+                        Console.Write("{0}", i);
+                        break;
+                    }
+                    Console.Write("{0}, ", i);
+                }
+                
+            }
+            else if(a>b)
+            {
+                for(int i=b+1; a>=i+1; i++)
+                {
+                    if(i+1==a)
+                    {
+                        Console.Write("{0}", i);
+                        break;
+                    }
+                Console.Write("{0}, ", i);
+                }
+                
+            }
+            else if(a==b)
             {
                 Console.WriteLine("Brak wyników");
-            }
-            if(a<b)
-            {
-                for(int i =a-b; a+1<b-1; a++)
-                {
-                    Console.Write("{0}, ", a + 1);
-                }
-                Console.Write(a + 1);
-            }
-            if(a>b)
-            {
-                for(int i=b-a; a-1>b+1; b++)
-                {
-                    Console.Write("{0}, " b + 1);
-                }
-                Console.Write(b + 1);
             }
         }
     }
