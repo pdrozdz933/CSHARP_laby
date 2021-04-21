@@ -9,11 +9,14 @@ namespace smpseq6
             string a = Console.ReadLine();
             string b = Console.ReadLine();
             string c = Console.ReadLine();
+
             string[] aSplit = a.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             string[] bSplit = b.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             string[] cSplit = c.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
             int n = Int32.Parse(aSplit[0]);
             int x = Int32.Parse(aSplit[1]);
+
             if (x >= 0)
             {
                 for (int i = 0; i < n; i++)
@@ -35,9 +38,8 @@ namespace smpseq6
                 }
             }
             else
-            {
-                Console.Write("");
-            }
+               Console.Write("");
+            
         }
     }
 }

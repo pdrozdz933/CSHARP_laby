@@ -20,6 +20,8 @@ namespace z3
             int g = d + e + f;
 
             Console.WriteLine($"{g}");
+
+            if()
             
 
         }
