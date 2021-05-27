@@ -1,19 +1,20 @@
 ﻿using System;
 
-namespace z3
+namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-
+            string a = Console.ReadLine();
+            int n = Int32.Parse(a);
             int x = n;
             if (x % 2 == 0)
             {
                 x--;
-                for (int i = 0; i < x / 2 + 0.5f; i++)
+                for (int i = 0; i < x / 2 + 1; i++)
                 {
-                    for (int j = 0; j < (x - 1 * i); j++)
+                    for (int j = 0; j < (x - 2 * i); j++)
                     {
                         Console.Write("*");
                     }
@@ -26,10 +27,10 @@ namespace z3
             }
             else
             {
-                for (int i = 0; i < x / 2 + 0.5f; i++)
+                for (int i = 0; i < x / 2 + 1; i++)
                 {
 
-                    for (int j = 0; j < (x - 1 * i); j++)
+                    for (int j = 0; j < (x - 2 * i); j++)
                     {
                         Console.Write("*");
                     }
@@ -39,8 +40,6 @@ namespace z3
                     }
                 }
             }
-
-
         }
     }
 }
